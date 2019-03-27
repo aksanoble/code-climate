@@ -174,6 +174,8 @@ function functionForItems(i, id) {
 
   const xhr = new XMLHttpRequest();
 
+  console.log("test-code-climate");
+
   xhr.addEventListener('readystatechange', function () {
     if (this.readyState === this.DONE) {
       console.log(this.responseText);
